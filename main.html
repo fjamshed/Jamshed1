@@ -1,0 +1,17 @@
+<div id="accordion" role="tablist">
+        <div class="card" ng-repeat="file in files">
+            <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                   <span class="glyphicon glyphicon-folder-close"></span> <a ng-click="open_file(file.id)" data-toggle="collapse" href="#{{file.id}}" aria-expanded="true" aria-controls="collapseOne">
+                {{file.displayName}}
+        </a>
+                </h5>
+            </div>
+
+            <div id="{{file.id}}" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body" ng-repeat="file_name in file_names">
+                    <a ng-if="file.id == 5" ng-click="open_content(file.id)">{{file_name.fileName}}</a>
+                </div>
+            </div>
+        </div>
+    </div>

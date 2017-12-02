@@ -1,0 +1,7 @@
+[
+{"id":"1","dirName":"photos","displayName":"Photos"},
+{"id":"2","dirName":"videos","displayName":"Videos"},
+{"id":"3","dirName":"vacations","displayName":"Vacations"},
+{"id":"4","dirName":"expenses","displayName":"Expenses"},
+{"id":"5","dirName":"projects","displayName":"Projects"}
+ ]
